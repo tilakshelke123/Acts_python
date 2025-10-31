@@ -1,0 +1,11 @@
+
+create database mysql
+
+create table Employees(
+EmployeeID int unique,
+FirstName varchar(15),
+LastName varchar(15),
+HireDate varchar(20));
+
+INSERT INTO Employees (EmployeeID, FirstName, LastName,HireDate)
+VALUES (1,"tilak","shelke","2025-10-31");
