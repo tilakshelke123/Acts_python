@@ -1,0 +1,22 @@
+-------------------------
+Exercises 
+-------------------------
+
+Loops and Conditionals 
+----------------------
+# Solve the following using either while/do while loops
+1) Take a number from the user and print sum from 1 to that number 
+
+2) Take a number from the user and print all Odd numbers from 1 to that number 
+3) Take a number from the user and print all Even numbers from 1 to that number 
+4) Take a number from the user and print fibonacci sequence till that number
+	eg : fibonnaci sequence for 5 is 0,1,1,2,3,5
+Test cases :
+1) input_number = 13 output = 0 1 1 2 3 5 8 13
+2) input_number = 15 output = 0 1 1 2 3 5 8 13
+3) input_number = 1 output = 0 1 1 
+4) input_number = 0 output = 0 
+
+5) Take a number from the user and print multiplication table from 1 to 10 for that number
+6) Take a number from the user and calculate the sum of all even from 1 to that number
+

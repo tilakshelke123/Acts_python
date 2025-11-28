@@ -1,0 +1,173 @@
+*************************************************
+Assignments to submit By 22nd November 2022
+*************************************************
+	
+---------------------------------------
+Class/Object creation Problems :
+---------------------------------------
+
+0) Create a Student class with following 
+
+	a) instance variables 
+	   Name,Rollno,Subject
+	b) Instance Methods
+	   get_subject
+	   set_subject -- sets a subject for the particular instance
+	c) Class variables 
+	   school_name 
+	d) Class methods
+		get_school_name
+		set_school_name -- sets a school name for the class 
+	e) static methods
+		display_prerequiste_skills --> displays some skills for all students in general good to have ones
+
+	Main Method:
+		Create two student objects
+		display subject names for each of the above created objects
+		set a new subject name for each of the above created objects 	
+		display subject names again after updating for each of the above created objects
+
+		display the class variable 
+		update the class variable using set_school_name method
+		display the class variable 
+		update the class variable using class_name. notation
+		display the class variable 
+		update the class variable using object_name. notation
+		display the class variable 
+		display the object variable with the same name as class variable for the object you selected on line27
+
+		delete the school_name instance variable for the object you selected on line27
+		display the object variable with the same name as class variable for the object you selected on line27
+
+		delete the the object you selected on line27
+		display the rollno for the object you selected on line27
+
+		delete the school_name for the class
+		display the class variable 
+	
+
+1) Create a class that captures students. 
+	Each student has a first name, last name, class year, and major. Create two examples of students.
+
+2) Create a class that captures planets. 
+	Each planet has a name, a distance from the sun, and its gravity relative to Earth’s gravity. For distance and gravity, use the type double which captures real numbers. Make objects for Earth and your favorite non-earth planet.
+
+3) Create classes that capture bank customers and bank accounts.
+	A customer has a first and last name. An account has a customer and a balance. Make objects for two accounts held by the same customer.
+
+4) Create a class that captures airline tickets. 
+	Each ticket lists the departure and arrival cities, a flight number, and a seat assignment. A seat assignment has both a row and a letter for the seat within the row (such as 12F). Make two examples of tickets.
+
+5) Refer provided classesAndObjectsPractice.docx for problems on class and objects 
+
+
+--------------
+(Optional) more practice : https://www.codesdope.com/practice/cpp-classes-and-objects/
+--------------
+
+
+---------------------------------------
+Operator overloading Problems :
+---------------------------------------
+Create a Student class with following 
+
+	a) instance variables 
+	   Name,Rollno,Subject
+	b) Instance Methods
+	   get_subject
+	   set_subject -- sets a subject for the particular instance
+	 
+	Main Method:
+		Create two student objectsfor ex: Student1,Student2
+		display subject names for each of the above created objects
+		set a new subject name for each of the above created objects 	
+		display subject names again after updating for each of the above created objects
+		
+		compare Student1,Student2 for >,<,>=,<=,== in some if else block [Should have 5 methods for each operator ]
+			if the condition evaluate to true print "If clause successful"
+			if the condition evaluate to false print "Else clause successful"
+		
+---------------------------------------
+Inheritance Problems :
+---------------------------------------
+1) Create a Student class with following 
+
+	a) instance variables 
+	   Name,Rollno(private),Subject (Protected)
+	b) Instance Methods
+	   get_subject 
+	   set_subject -- sets a subject for the particular instance
+	   
+	   get_rollno
+	   set_rollno -- sets a rollno for the particular instance
+
+	   display_student_details -- > prints the name,rollno,subject 
+	   get_primary_skill --> prints the primary skill
+	   set_primary_skill --> sets the primary skill
+	   
+	Create a subclass named DBDA_student with following 
+	a) instance variables 
+	   Name,Rollno(private),Subject(protected), primary_skill,secondary_Skills(an array of other skills other than primary skill)
+	b) Instance Methods
+	   get_subject
+	   set_subject -- sets a subject for the particular instance
+
+	   get_rollno
+	   set_rollno -- sets a rollno for the particular instance
+
+	   display_student_details -- > prints the name,rollno,subject,primary_skill,secondary_skills
+	   
+	   Override the set_primary_skill method to always have SQL as primary skill
+	   
+
+	Main Method:
+		Create two DBDA student objects for ex: Student1,Student2
+		display subject names for each of the above created objects
+		
+		display rollno for each of the above created objects
+		set a new subject name for each of the above created objects 	
+		display subject names again after updating for each of the above created objects
+		
+		compare Student1,Student2 for > in some if else block
+			if the condition evaluate to true print "If clause successful"
+			if the condition evaluate to false print "Else clause successful"
+
+		set the primary skill for Student1	
+		print the primary skill for Student1
+		print the primary skill for Student2
+
+   
+--------------------------------------
+Inheritance Assignments (2,3,4,5,6)
+--------------------------------------
+
+1. Define three classes for each of the following list below (A,B,C,D,E).
+one class must be the superclass and the other two classes being subclasses.
+
+	A1) Relative (superclass); Sister, Brother, Aunt, Uncle (subclasses)
+	B2) Parent (superclass); Mom, Dad (subclasses)
+	C3) Appliance (superclass); Stove, Refrigerator, Oven, Dishwasher (subclasses)
+	D4) Animal (superclass); Dog, Cat, Hamster, Tiger (subclasses)
+	E5) Publication (superclass); Book, Magazine, Newspaper (subclasses)
+
+
+FOR YOUR SUPERCLASS, IMPLEMENT THE FOLLOWING:
+-------------------------------------------------
+3. Your superclass should contain at least 2 - 3 fields (instance variables ) with getters and setters methods as needed.
+
+4. Your superclass must have a constructor with parameters that initialize all of the fields.
+5. Your superclass must have a printDetails( ) method that prints out a description of the object (it’s fields).
+
+FOR ALL OF YOUR SUBCLASSES, IMPLEMENT THE FOLLOWING
+-------------------------------------------------
+
+6. Your subclasses should contain 2 – 3 additional fields (attributes) with getters and setters methods as needed.
+
+7. The subclass must have a constructor that uses the proper syntax to call the constructor of its parent class and to initialize the new fields.
+
+8. Your subclasses should also have a printDetails( ) method that prints out
+the details of your ALL of the subclass attributes, including the attributes
+that are inherited. 
+
+Note that there are several approaches to accomplish this; your choice as long as you meet common coding guidelines (no using public fields!).
+   

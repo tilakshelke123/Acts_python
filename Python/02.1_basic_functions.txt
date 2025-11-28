@@ -1,0 +1,12 @@
+1) Write a Python function that takes a number as a parameter
+ and  returns whether it is divisible by 11 or not
+
+2) Write a function called circle_area that takes the radius of a circle as a parameter 
+and returns the area of the circle.
+
+3) Write a function called fuel_cost 
+that takes a distance as a required argument, 
+km_per_litre (default 50 km/l) and cost_per_litre (default 60 rs a litre) as optional
+ arguments. The function should return the cost 
+fuel_cost = distance/km_per_litre*cost_per_litre 
+

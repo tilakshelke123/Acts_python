@@ -1,0 +1,15 @@
+Github: https://github.com/gauravrajput89/CCST_Sept_2025
+
+Have Vscode+python installed 
+
+Basic Syntax Reference : https://www.programiz.com/python-programming
+
+Discussion:
+-----------------
+
+What is programming:
+
+-- Set of instructions to perform a task
+-- syntaxes 
+
+
